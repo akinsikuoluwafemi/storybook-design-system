@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "oluwafemiakinsiku-learnstorybook-design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
@@ -19,7 +19,8 @@
     "test-storybook": "test-storybook",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build-storybook-docs": "storybook build  --docs"
+    "build-storybook-docs": "storybook build  --docs",
+    "chromatic": "npx chromatic --project-token=chpt_eb42d9e745431b0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -79,5 +80,8 @@
     }
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0"
+  "_id": "learnstorybook-design-system-template@0.1.0",
+  "description": "Storybook design systems tutorial",
+  "repository": "https://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@github.com/akinsikuoluwafemi/storybook-design-system.git",
+  "author": "Femi Akinsiku <akinsiku13@gmail.com>"
 }
